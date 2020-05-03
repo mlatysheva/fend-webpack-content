@@ -1,4 +1,3 @@
-export { handleSubmit}
 function handleSubmit(event) {
     event.preventDefault()
 
@@ -13,3 +12,4 @@ function handleSubmit(event) {
         document.getElementById('results').innerHTML = res.message
     })
 }
+export { handleSubmit}
