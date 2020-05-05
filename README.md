@@ -1,3 +1,4 @@
+// "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
 # Webbpack Express Example App
 
 The goal of this repo is be an example of a basic but functional app built on Express and Webpack.
