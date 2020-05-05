@@ -13,10 +13,13 @@ module.exports = {
     },
     mode: 'development',
     devtool: 'source-map',
+    devServer: {
+        port: 8080
+    },
     module: {
         rules: [
             {
-                test: '/\.js$/',
+                test: /\.js$/,
                 exclude: /node_modules/,
                 loader: "babel-loader"
             },
